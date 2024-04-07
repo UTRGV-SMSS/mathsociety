@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Math Society</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap.css">
+
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<header>
+<nav class="navbar navbar-expand-md navbar fixed-top bg-white">
+  <div class="container-fluid">
+
+       <ul class="nav-item mb-0  ps-1">
+        <a class="nav-link work-sans-700" aria-current="page" href="Math.html#home">
+          <img src="logo.png" width="300" height="50">
+        </a>
+       </ul>
+
+      <ul class="nav nav-underline justify-content-end offcanvas-sm">
+        <li class="nav-item">
+          <a class="nav-link work-sans-700" aria-current="page" href="#events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link work-sans-700" aria-current="page" href="Math.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link work-sans-700" aria-current="page" href="Math.html#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<!-- Main Text Content -->
+<main>
+    <!-- Page content -->
+    <div class="content w-90 offset-05">
+
+    <!-- Events Section -->
+    <div class="container padding-large mt-5 mb-xxl-5 text-center">
+      <h1 class="py-lg-3 title modal-header d-block w-100 work-sans-700">Events</h1>
+      <p class="h3 work-sans-200">The Mathematical Society hosts many events and works to spread math in the RGV. The following events are dedicated to math inolving seminars, activities, and meetings for our organization.
+      </p>
+    </div>
+
+    <div class="row w-100 mb-5">
+      <div class="col-sm-6 col-12">
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Algebra and Number Theory Seminar</h5>
+              <p class="card-text">A new lecture from faculty and invited speakers every Thursday on topics of Number Theory and Algebra</p>
+              <a href="https://faculty.utrgv.edu/luigi.ferraro/ANT/Spring24.html#:~:text=The%20Algebra%20%26%20Number%20Theory%20Seminar,Debanjana%20Kundu%20or%20Luigi%20Ferraro." class="btn btn-primary">ANT Website</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">UTRGV Mathematical Competition</h5>
+              <p class="card-text">A competition given between undergraduates and graduates on mathematics hosted on April 18th</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#MComp">
+                See Flyer
+              </button>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="row w-100 mb-5">
+      <div class="col-sm-6 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Undergraduate Tutoring</h5>
+              <p class="card-text">Tutoring for Math Classes provided by society members all week</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Tutor">
+                See Flyer
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Weekly Putnam Preparation</h5>
+              <p class="card-text">Join to build problem solving skills in math relevant to the William Lowell Putnam Exam</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Putnam">
+                See Flyer
+              </button>
+            </div>
+          </div>  
+        </div>                  
+    </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="MComp" tabindex="-1" aria-labelledby="MCompLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="MCompLabel">Mathematics Competition</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="competition.jpg" style="width: 100%; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Tutor" tabindex="-1" aria-labelledby="TutorLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="TutorLabel">Undergraduate Tutoring</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="tutoring.png" style="width: 100%; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Putnam" tabindex="-1" aria-labelledby="PutnamLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="PutnamLabel">Putnam Exam Preparation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="putnam.png" style="width: 100%; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Calendar Section -->
+    <div class="container padding-large mt-5 mb-xxl-5 text-center w-100">
+      <h2 class="py-lg-3 title modal-header d-block w-100 work-sans-700">Calendar</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?src=aba19f036f201ca94a8ee25d8bb088d0a0051d4379ee9c2d2efff27c7c7df93d%40group.calendar.google.com&ctz=America%2FChicago" class="w-100 vh-100" style="border: 0" frameborder="0" scrolling="yes"></iframe>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-secondary py-3 mt-4" style="border-top: 4px solid #F05023; z-index: 99">
+    <h3 class="text-center text-white work-sans-700">Powered by Mathematical Society Contributors</h3>
+</footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
